@@ -1,0 +1,50 @@
+﻿
+
+body {
+    font-family: 'Times New Roman';
+    background-color: #2C3E50;
+}
+div{
+    border-radius: 6px;
+}
+#header{
+    height: 100px;
+    z-index: 1;
+    margin-bottom:20px;
+    width: 100%;
+    background-color: #2980B9;
+}
+#left{
+    float: left;
+    height:1000px;
+    width: 10%;
+    background-color: #E74C3C;
+}
+#right{
+    position: relative;
+    float:right;
+    height:1000px;
+    width:89%;
+    background-color:#ECF0F1;
+}
+#name{
+    float:left;
+	margin-left: 25px;
+	padding-top: 5px;
+	font-size: 32px;
+	font-family: 'Franklin Gothic';
+	color: white;
+}
+#contact{
+    float:right;
+    color:white;
+    padding-right: 20px;
+}
+#email{
+	color: white;
+}
+#home{
+    float:left;
+    padding-top: 30px;
+    padding-left: 40px;
+}

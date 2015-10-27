@@ -5,9 +5,14 @@ body {
     background-color: #2C3E50;
 }
 div{
-    border-radius: 6px;
+    border-radius: 3px;
+}
+#container{
+    min-height:100%;
+    position:relative;
 }
 #header{
+    border-radius:20px;
     height: 100px;
     z-index: 1;
     margin-bottom:20px;
@@ -28,6 +33,16 @@ div{
     background-color:#ECF0F1;
     font-family: Arial, Helvetica, sans-serif;
     font-size:18px;
+    padding-bottom:40px;
+}
+#footer{
+    padding-right:100px;
+    position:fixed;
+    bottom:0;
+    clear:both;
+    height:40px;
+    width:100%;
+    background-color:white;
 }
 #name{
     float:left;
@@ -62,4 +77,8 @@ div{
 #profile{
     float:right;
     padding-right: 15px;
+}
+#source{
+    float:right;
+    padding-right:15px;
 }

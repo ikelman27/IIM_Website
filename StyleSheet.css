@@ -1,5 +1,9 @@
 ﻿
 
+html, body{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Times New Roman';
     background-color: #2C3E50;
@@ -7,12 +11,11 @@ body {
 div{
     border-radius: 3px;
 }
-#container{
-    min-height:100%;
-    position:relative;
-}
 #header{
+    
     border-radius:20px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
     height: 100px;
     z-index: 1;
     margin-bottom:20px;
@@ -36,13 +39,16 @@ div{
     padding-bottom:40px;
 }
 #footer{
-    padding-right:100px;
-    position:fixed;
-    bottom:0;
-    clear:both;
-    height:40px;
+    float: left;
+    border-top-style:solid;
+    border-top-width: 1px;
+    border-top-color:#ECF0F1;
+    margin-top:45px;
+    position: relative;
+    height:auto;
     width:100%;
-    background-color:white;
+    background-color:#2C3E50;
+    text-align:center;
 }
 #name{
     float:left;
@@ -69,6 +75,7 @@ div{
 }
 .SideLink{
     color:black;
+    padding-left:15px;
     padding-bottom:40px;
 }
 #igmlogo{
@@ -78,7 +85,11 @@ div{
     float:right;
     padding-right: 15px;
 }
+ul.a{
+    color: #ECF0F1;
+    padding-top:25px;
+    list-style-type:none;
+}
 #source{
-    float:right;
-    padding-right:15px;
+    color: #ECF0F1;
 }
